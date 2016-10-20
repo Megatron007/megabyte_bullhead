@@ -5,6 +5,7 @@ export KBUILD_BUILD_USER=omkar
 export KBUILD_BUILD_HOST=megatron007
 
 ###### defines ######
+export CROSS_COMPILE=~/toolchain/bin/aarch64-linux-android-
 export ARCH=arm64
 export SUBARCH=arm64
 local_dir=$PWD
