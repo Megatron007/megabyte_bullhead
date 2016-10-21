@@ -10,7 +10,7 @@ export ARCH=arm64
 export SUBARCH=arm64
 local_dir=$PWD
 defconfig=bullhead_defconfig
-jobs=4
+jobs=32
 
 ###### defines ######
 echo '#############'
